@@ -43,9 +43,11 @@ export default function AboutMe() {
               2024 - 現在｜數位內容與科技學士學程
             </p>
           </div>
-
+          
           <div className="border-l-4 border-[#97b4de] pl-4">
-            <h3 className="font-semibold text-gray-800">個人網站 Project</h3>
+            <h3 className="font-semibold text-gray-800">
+              個人網站 Project
+            </h3>
             <p className="text-sm text-gray-500">
               2024｜Next.js + Tailwind CSS
             </p>
