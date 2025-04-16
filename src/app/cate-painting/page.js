@@ -1,83 +1,83 @@
-import Image from "next/image";
-import Applejpg from "@/../public/apple.jpg";
-import Painting1 from "@/image/1.png";
-import Painting2 from "@/image/2.png";
-import Painting3 from "@/image/3.png";
-import Painting4 from "@/image/4.png";
+import Project1 from "@/image/1.png";
+import Project2 from "@/image/2.png";
+import Project3 from "@/image/3.png";
+import Project4 from "@/image/4.png";
 
 export default function CatePainting() {
-  let dog = "bg-red-200";
-
   return (
     <div className="w-full h-full bg-white flex flex-col justify-start items-center rounded-2xl py-12 px-6">
-      {/* <img src={Painting1.src} className="w-full h-full object-cover rounded-2xl" /> */}
-
-      {/* <Image src={Painting1} /> */}
-
-      <div className="flex flex-col w-full">
-        <h1 className="text-2xl font-bold">繪畫作品</h1>
-        <h3>
-          我精彩的繪圖作品，我擅長用水彩勾勒出細膩的線條，並且用色調和來表現出不同的情感。
+      {/* 頁面標題與說明 */}
+      <div className="flex flex-col w-full mb-4">
+        <h1 className="text-3xl font-bold text-gray-800 mb-2">🖌️ UI/UX 專案展示</h1>
+        <h3 className="text-gray-600 leading-relaxed">
+          我參與設計的 UI/UX 專案，包含應用程式介面、互動體驗、展覽設計與品牌網站。專注於使用者流程、視覺一致性與易用性。
         </h3>
       </div>
 
       <div className="flex flex-col w-full gap-4 mt-3">
-        <div className="grid grid-cols-1 sm:grid-cols-3 ${dog} w-full gap-4 h-[33vh]">
+        {/* 第一層：大圖＋小圖 */}
+        <div className="grid grid-cols-1 sm:grid-cols-3 w-full gap-4 h-[33vh]">
+          {/* 左大圖：App 設計 */}
           <div
-            className={`bg-gray-200 sm:col-span-2 rounded-2xl relative overflow-hidden`}
+            className="bg-gray-200 sm:col-span-2 rounded-2xl relative overflow-hidden group"
             style={{
-              backgroundImage: `url(${Painting1.src})`,
+              backgroundImage: `url(${Project1.src})`,
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}
           >
+            {/* 底部標題區 */}
             <div
-              className="w-[40px] h-[40px] rounded-full bg-red-500 absolute 
-              left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
+              className="w-full h-[100px] backdrop-blur-md bg-black/30 text-white text-xl 
+              absolute bottom-0 left-0 flex justify-center items-center font-semibold"
             >
-              狗狗
-            </div>
-
-            <div
-              className="w-full h-[100px] backdrop-blur-lg 
-              absolute bottom-0 left-0 text-white text-2xl flex justify-center items-center"
-            >
-              狗狗
+             追夢輸送｜餐廳資訊平台設計
             </div>
           </div>
 
+          {/* 右側圖：寵物資訊平台 */}
           <div
-            className="bg-gray-200 rounded-2xl"
+            className="bg-gray-200 rounded-2xl relative overflow-hidden group"
             style={{
-              backgroundImage: `url(${Painting2.src})`,
+              backgroundImage: `url(${Project2.src})`,
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}
           >
-            內容二
+            <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition flex justify-center items-center text-white font-semibold text-lg">
+              政人量｜人力資源交流平台
+            </div>
           </div>
         </div>
 
+        {/* 第二層：雙圖排版 */}
         <div className="grid grid-cols-2 w-full gap-4 h-[33vh]">
+          {/* 左下圖：展覽互動 */}
           <div
-            className="bg-gray-200 rounded-2xl"
+            className="bg-gray-200 rounded-2xl relative overflow-hidden group"
             style={{
-              backgroundImage: `url(${Painting3.src})`,
+              backgroundImage: `url(${Project3.src})`,
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}
           >
-            內容四
+            <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition flex justify-center items-center text-white font-semibold text-lg">
+              展覽互動導覽｜空間 + 螢幕導視系統
+            </div>
           </div>
+
+          {/* 右下圖：個人品牌官網 */}
           <div
-            className="bg-gray-200 rounded-2xl"
+            className="bg-gray-200 rounded-2xl relative overflow-hidden group"
             style={{
-              backgroundImage: `url(${Painting4.src})`,
+              backgroundImage: `url(${Project4.src})`,
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}
           >
-            內容五
+            <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition flex justify-center items-center text-white font-semibold text-lg">
+              品牌官網設計｜Next.js + UI 統一風格
+            </div>
           </div>
         </div>
       </div>
