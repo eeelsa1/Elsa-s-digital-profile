@@ -8,7 +8,7 @@ export default function PortfolioPage() {
       desc: "使用 Next.js + Tailwind CSS 建置的自我介紹網站，整合動態頁面與 RWD 設計。",
       tech: ["Next.js", "Tailwind CSS", "TypeScript"],
       img: exampleImg,
-      link: "https://your-site.com",
+      link: "#",
     },
     {
       title: "甜點主題遊戲",
@@ -18,21 +18,21 @@ export default function PortfolioPage() {
       link: "#",
     },
     {
-      title: "互動插畫展示",
-      desc: "將繪圖作品轉為線上展示，支援多頁與 lightbox 放大檢視。",
-      tech: ["HTML", "CSS", "JavaScript"],
+      title: "迷克夏Chatbot MOOMOO",
+      desc: "製作迷克夏客服機器人，提供即時回覆與互動功能。",
+      tech: ["持續進行中"],
       img: exampleImg,
       link: "#",
     },
   ];
 
   return (
-    <div className="flex-1 w-full p-6 md:p-12 bg-white rounded-2xl shadow-lg overflow-auto">
+    <div className="flex-1 w-full p-6 md:p-12 bg-[#fffdf5] rounded-2xl shadow-lg overflow-auto">
       <h1 className="text-3xl font-bold text-gray-800 mb-2">
         作品集 Portfolio
       </h1>
       <p className="text-lg text-gray-600 mb-8">
-        以下是我近期完成的一些設計與前端開發作品。
+        以下是我近期完成的一些設計與前端開發作品，包含網頁設計、互動遊戲與聊天機器人等。每個專案都展現了我的技術能力與創意，歡迎點擊查看！
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

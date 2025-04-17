@@ -3,7 +3,7 @@ import Applejpg from "@/../public/apple.jpg";
 
 export default function AboutMe() {
   return (
-    <div className="flex-1 w-full p-6 md:p-12 bg-white rounded-2xl shadow-lg overflow-auto">
+    <div className="flex-1 w-full p-6 md:p-12 bg-[#fffdf5] rounded-2xl shadow-lg overflow-auto">
       <h1 className="text-3xl font-bold text-gray-800 mb-4">關於我 About Me</h1>
 
       <p className="text-lg text-gray-600 leading-relaxed mb-6">

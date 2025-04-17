@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="w-screen h-screen overflow-y-auto flex flex-col sm:flex-row gap-5 bg-gray-200 p-8">
+        <div className="w-screen h-screen overflow-y-auto flex flex-col sm:flex-row gap-5 bg-[#97b4de] p-8">
           {/* 側邊欄 */}
           <div
             className="min-w-[320px] w-full sm:w-[320px] h-full rounded-2xl bg-[#fffdf5] flex 
@@ -68,7 +68,7 @@ export default function RootLayout({ children }) {
 
               {/* LinkedIn */}
               <a
-                href="https://www.linkedin.com/in/yourname"
+                href="https://www.linkedin.com/in/elsa-tsai-662a22271"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -85,7 +85,7 @@ export default function RootLayout({ children }) {
 
               {/* Facebook */}
               <a
-                href="https://www.facebook.com/yourname"
+                href="https://www.facebook.com/share/18bkdA1khM/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -102,7 +102,7 @@ export default function RootLayout({ children }) {
 
               {/* Instagram */}
               <a
-                href="https://www.instagram.com/yourname"
+                href="https://www.instagram.com/eeelsa_12?igsh=YTE1YmVzbjBvNG9q&utm_source=qr"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -126,13 +126,13 @@ export default function RootLayout({ children }) {
                 </div>
               </Link>
 
-              <Link href="/cate-web">
+              <Link href="/portfolio">
                 <div className="w-full h-[84px] bg-[#97b4de] hover:bg-[#8ca6c8] transition-colors rounded-xl flex items-center justify-center text-white font-semibold">
                   Portfolio
                 </div>
               </Link>
 
-              <Link href="/cate-painting">
+              <Link href="/uiuxproject">
                 <div className="w-full h-[84px] bg-[#97b4de] hover:bg-[#8ca6c8] transition-colors rounded-xl flex items-center justify-center text-white font-semibold">
                   UIUX Project
                 </div>

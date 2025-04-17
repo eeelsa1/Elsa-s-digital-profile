@@ -1,16 +1,19 @@
 import Project1 from "@/image/1.png";
 import Project2 from "@/image/2.png";
-import Project3 from "@/image/3.png";
+import Project3 from "@/image/3.jpg";
 import Project4 from "@/image/4.png";
 
-export default function CatePainting() {
+export default function uiuxproject() {
   return (
-    <div className="w-full h-full bg-white flex flex-col justify-start items-center rounded-2xl py-12 px-6">
+    <div className="w-full h-full bg-[#fffdf5] flex flex-col justify-start items-center rounded-2xl py-12 px-6">
       {/* 頁面標題與說明 */}
       <div className="flex flex-col w-full mb-4">
-        <h1 className="text-3xl font-bold text-gray-800 mb-2">🖌️ UI/UX 專案展示</h1>
+        <h1 className="text-3xl font-bold text-gray-800 mb-2">
+          🖌️ UI/UX 專案展示
+        </h1>
         <h3 className="text-gray-600 leading-relaxed">
-          我參與設計的 UI/UX 專案，包含應用程式介面、互動體驗、展覽設計與品牌網站。專注於使用者流程、視覺一致性與易用性。
+          我參與設計的 UI/UX
+          專案，包含應用程式介面、互動體驗、展覽設計與品牌網站。專注於使用者流程、視覺一致性與易用性
         </h3>
       </div>
 
@@ -31,7 +34,7 @@ export default function CatePainting() {
               className="w-full h-[100px] backdrop-blur-md bg-black/30 text-white text-xl 
               absolute bottom-0 left-0 flex justify-center items-center font-semibold"
             >
-             追夢輸送｜餐廳資訊平台設計
+              追夢輸送｜餐廳資訊平台設計
             </div>
           </div>
 
@@ -52,7 +55,7 @@ export default function CatePainting() {
 
         {/* 第二層：雙圖排版 */}
         <div className="grid grid-cols-2 w-full gap-4 h-[33vh]">
-          {/* 左下圖：展覽互動 */}
+          {/* 左下圖：Rednote */}
           <div
             className="bg-gray-200 rounded-2xl relative overflow-hidden group"
             style={{
@@ -62,11 +65,11 @@ export default function CatePainting() {
             }}
           >
             <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition flex justify-center items-center text-white font-semibold text-lg">
-              展覽互動導覽｜空間 + 螢幕導視系統
+              小紅書｜介面優化與互動設計
             </div>
           </div>
 
-          {/* 右下圖：個人品牌官網 */}
+          {/* 右下圖： */}
           <div
             className="bg-gray-200 rounded-2xl relative overflow-hidden group"
             style={{
@@ -76,7 +79,7 @@ export default function CatePainting() {
             }}
           >
             <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition flex justify-center items-center text-white font-semibold text-lg">
-              品牌官網設計｜Next.js + UI 統一風格
+              政大選課Extension|系統插件
             </div>
           </div>
         </div>
