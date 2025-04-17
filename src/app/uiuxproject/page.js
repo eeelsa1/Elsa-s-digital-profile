@@ -13,7 +13,7 @@ export default function uiuxproject() {
         </h1>
         <h3 className="text-gray-600 leading-relaxed">
           我參與設計的 UI/UX
-          專案，包含應用程式介面、互動體驗、展覽設計與品牌網站。專注於使用者流程、視覺一致性與易用性
+          專案，包含應用程式介面、互動體驗。專注於使用者流程、視覺一致性與易用性
         </h3>
       </div>
 
