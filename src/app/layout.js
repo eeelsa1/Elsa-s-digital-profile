@@ -68,7 +68,7 @@ export default function RootLayout({ children }) {
 
               {/* LinkedIn */}
               <a
-                href="https://www.linkedin.com/in/elsa-tsai-662a22271"
+                href="https://www.linkedin.com/in/ming-yuan-tsai-662a22271"
                 target="_blank"
                 rel="noopener noreferrer"
               >
